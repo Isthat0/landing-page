@@ -13,11 +13,13 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-top: 7px;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .header-logo{
     font-size: 18px;
-    padding-left: 10em;
+    padding-left: 5em;
 }
 
 .header-links{
@@ -25,19 +27,130 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    padding-right: 10em;
+    padding-right: 5em;
 }
 
 .hero{
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em;
+    padding-left: 10em;
+    padding-right: 10em;
+    
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.hero p{
+    color: #c4cad6;
+    font-size: 18px;
+}
+.hero .pic{
+    width:800px;
+    height: 150px;
+    background-color: #cccdcf93;
+    font-weight: 100;
+    text-align: center;
+}
+
+.hero button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.information .header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+#all-boxes{
+    display: flex;
+    flex: row space-between;
+    gap: 30px;
+    padding-top: 15px;
+}
+
+.boxes div {
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #3882f6;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 2em;
+}
+
+.quote-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-quote{
+    align-self: flex-end;
+    padding-right: 32em;
+}
+
+.quote .left-quote{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.action .blue-box{
+    background-color: #3882f6;
+    margin: 100px;
+    margin-left: 25em;
+    margin-right: 25em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 8em;
+    padding-left: 8em;
+}
+
+.left-side{
+    color: #f9faf8;
+}
+
+.left-side h3{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.right-side button{
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 4px;
+    color: #f9faf8;
 }
 
 .footer{
     background-color: #1f2937;
-}
-
-.information div{
-    width: 100px;
-    height: 100px;
-    border: 5px solid #3882f6;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 10px;
 }
